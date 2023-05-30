@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, FeelingScale.class);
                 startActivity(intent);
             }
-        }, 15000);  // 15000 milliseconds = 15 seconds
+        }, 5000);  // 15000 milliseconds = 15 seconds
     }
 }

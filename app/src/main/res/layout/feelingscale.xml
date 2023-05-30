@@ -4,84 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FeelingScale">
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="252dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="112dp"
-        android:text="How do you feel today?"
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MoodMaster!"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/veryHappy"
-        android:layout_width="65dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="156dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/quiteHappy"
-        android:layout_width="65dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="24dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nhnu"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/veryHappy"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/nhnu"
-        android:layout_width="65dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="108dp"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="@+id/veryUnhappy"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/quiteUnhappy"
-        android:layout_width="65dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="16dp"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="@+id/veryUnhappy"
-        app:layout_constraintHorizontal_bias="0.703"
-        app:layout_constraintStart_toEndOf="@+id/nhnu"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/veryUnhappy"
-        android:layout_width="65dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="156dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/showMoods"
+    <TextView
+        android:id="@+id/welcomeQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="140dp"
-        android:text="Button"
+        android:text="How are you feeling today?"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:justifyContent="space_evenly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeQ"> <!-- or "space_between", "space_evenly" -->
+
+        <Button
+            android:id="@+id/buttonMood1"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/buttonMood2"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/buttonMood3"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonMood4"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/buttonMood5"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:text="5" />
+
+    </com.google.android.flexbox.FlexboxLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,19 +1,45 @@
 package com.example.moodmaster;
 
+
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+import java.util.Date;
+
+@Entity(tableName = "moods")
 public class Mood {
-    private int value;
-    private String date;
+    @PrimaryKey(autoGenerate = true)
+    private int moodID;
 
-    public Mood(int value, String date) {
-        this.value = value;
-        this.date = date;
+    private int mood;
+//    private Date date;
+
+    public int getMoodID() {
+        return moodID;
     }
 
-    public int getValue() {
-        return value;
+    public int getMood() {
+        return mood;
     }
 
-    public String getDate() {
-        return date;
+    public void setMoodID(int moodID) {
+        this.moodID = moodID;
+    }
+
+    public void setMood(int mood) {
+        this.mood = mood;
+    }
+
+//    public Date getDate() {
+//        return date;
+//    }
+
+//    public void setDate(Date date) {
+//        this.date = date;
+//    }
+
+    public Mood(int mood){
+        this.mood = mood;
+//        this.date = date;
     }
 }
