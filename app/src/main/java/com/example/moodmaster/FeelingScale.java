@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -38,8 +39,8 @@ public class FeelingScale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("YOUR MOOD IS BAD");
-                Mood m = new Mood(1);
-                new InsertMoodAsyncTask().execute(m);
+//                Mood m = new Mood(1, new Date());
+//                new InsertMoodAsyncTask().execute(m);
                 new GetAllMoodsAsyncTask().execute();
             }
         });
@@ -48,8 +49,8 @@ public class FeelingScale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("YOUR MOOD IS SEMI-BAD");
-                Mood m = new Mood(2);
-                new InsertMoodAsyncTask().execute(m);
+//                Mood m = new Mood(2, date);
+//                new InsertMoodAsyncTask().execute(m);
                 new GetAllMoodsAsyncTask().execute();
             }
         });
@@ -58,8 +59,8 @@ public class FeelingScale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("YOUR MOOD IS SEMI");
-                Mood m = new Mood(3);
-                new InsertMoodAsyncTask().execute(m);
+//                Mood m = new Mood(3, date);
+//                new InsertMoodAsyncTask().execute(m);
                 new GetAllMoodsAsyncTask().execute();
             }
         });
@@ -68,8 +69,8 @@ public class FeelingScale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("YOUR MOOD IS SEMI-GOOD");
-                Mood m = new Mood(4);
-                new InsertMoodAsyncTask().execute(m);
+//                Mood m = new Mood(4, date);
+//                new InsertMoodAsyncTask().execute(m);
                 new GetAllMoodsAsyncTask().execute();
             }
         });
@@ -78,8 +79,8 @@ public class FeelingScale extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 System.out.println("YOUR MOOD IS GOOD");
-                Mood m = new Mood(5);
-                new InsertMoodAsyncTask().execute(m);
+//                Mood m = new Mood(5, date);
+//                new InsertMoodAsyncTask().execute(m);
                 new GetAllMoodsAsyncTask().execute();
             }
         });
@@ -106,7 +107,7 @@ public class FeelingScale extends AppCompatActivity {
             super.onPostExecute(moods);
 
             for(Mood m : moods){
-                System.out.println("-----------------------------------MOOD: " + m.getMood());
+                System.out.println("-----------------------------------MOOD: " + m.getMood() + " " + m.getDate());
             }
         }
     }
