@@ -1,15 +1,15 @@
 package com.example.moodmaster;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
-import android.view.animation.AlphaAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,5 +35,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }, 5000);  // 15000 milliseconds = 15 seconds
+    }
+
+    public void btnClick(View v){
+        Intent intent = new Intent(MainActivity.this, NewsFeedActivity.class);
+        startActivity(intent);
+
     }
 }

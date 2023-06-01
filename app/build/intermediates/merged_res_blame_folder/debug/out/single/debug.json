@@ -1,78 +1,86 @@
 [
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/layout_mood_show.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/layout/mood_show.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/layout_feelingscale.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/layout/feelingscale.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/layout_start_screen.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/layout/start_screen.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/drawable-v24_shapes_background.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/drawable-v24/shapes_background.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/layout_item_news.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/layout/item_news.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/drawable_sunset.jpeg.flat",
+        "source": "com.example.moodmaster.app-main-7:/drawable/sunset.jpeg"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/layout_feelingscale.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/layout/feelingscale.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.moodmaster.app-main-26:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.moodmaster.app-merged_res-5:/drawable-v24_shapes_background.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/drawable-v24/shapes_background.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/layout_start_screen.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/layout/start_screen.xml"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/drawable_sunset.jpeg.flat",
-        "source": "com.example.moodmaster.app-main-26:/drawable/sunset.jpeg"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.moodmaster.app-merged_res-24:/layout_mood_show.xml.flat",
-        "source": "com.example.moodmaster.app-main-26:/layout/mood_show.xml"
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.moodmaster.app-merged_res-5:/layout_activity_news_feed.xml.flat",
+        "source": "com.example.moodmaster.app-main-7:/layout/activity_news_feed.xml"
+    },
+    {
+        "merged": "com.example.moodmaster.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.moodmaster.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]
